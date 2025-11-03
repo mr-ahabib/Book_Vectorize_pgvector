@@ -36,34 +36,6 @@ Processing is handled asynchronously in the background so the user doesn’t hav
 
 ---
 
-## 📂 Project Structure
-
-```
-
-Book_Vectorize/
-│
-├── app/
-│   ├── api/
-│   │   └── endpoints.py
-│   ├── core/
-│   │   └── config.py
-│   ├── db/
-│   │   ├── database.py
-│   │   └── init_db.py
-│   ├── models/
-│   │   └── book_embedding.py
-│   ├── schemas/
-│   │   └── schemas.py
-│   ├── services/
-│   │   └── vector_service.py
-│   ├── utils/
-│   │   └── pdf_extractor.py
-├── uploads/  # uploaded files saved here
-├── main.py
-└── README.md
-
-````
-
 ---
 
 ## 🧩 Installation
